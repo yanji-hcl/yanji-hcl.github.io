@@ -935,84 +935,16 @@
   position: absolute;
   top: -22px; }
 
-.src-components-TourCard-_tour--yN8gg {
-  height: 120px;
-  padding: 10px;
-  margin: 0 0 20px 20px;
-  cursor: pointer;
-  background: white;
-  border: 1px solid #B7CFD7;
-  box-shadow: 0 10px 10px 0 rgba(175, 191, 222, 0.19);
-  border-radius: 6px;
-  box-sizing: border-box;
-  transition: all cubic-bezier(0.4, 0, 1, 1) 0.2s; }
-  .src-components-TourCard-_tour--yN8gg:hover {
-    border: 3px solid #2584F1;
-    padding: 8px; }
-
-.src-components-TourCard-_info--20PBi {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden; }
-
-.src-components-TourCard-_title--UqQeJ {
-  font-family: "Poppins Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12px;
-  color: #30353F;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  padding-bottom: 6px; }
-  .src-components-TourCard-_title--UqQeJ.src-components-TourCard-_dbxColor--3z5N_ {
-    color: #704C9F; }
-
-.src-components-TourCard-_desc--3NUuC,
-.src-components-TourCard-_meta--1FR3Z {
-  font-family: "Poppins Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12px;
-  color: #30353F;
-  height: 43px;
-  margin: 0;
-  overflow: hidden;
-  word-break: break-word; }
-
-.src-components-TourCard-_meta--1FR3Z {
-  display: flex;
-  align-items: flex-end; }
-
-.src-components-ToursList-_domainTitleWrapper--AS84o {
-  display: inline-flex;
-  width: 100%; }
-
-.src-components-ToursList-_title--30wP2 {
-  font-family: "Poppins Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 16px;
-  color: #3F4E66;
-  white-space: nowrap;
-  line-height: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-bottom: 8px;
-  margin: 0; }
-
-.src-components-ToursList-_seeAll--1mD_Y {
-  font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-  color: #297BFF;
-  position: absolute;
-  text-decoration: none;
-  right: 0; }
-
-.src-components-ToursList-_assetsContainer--35WIM {
-  margin-left: -20px; }
-
-.src-components-ToursList-_desc--2H436 {
-  font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-  color: #525A6B;
-  text-align: justify; }
+.src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg {
+  width: 100%;
+  margin: 10px 0; }
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg a,
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg span {
+    font-family: "Poppins Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #3F4E66; }
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg a {
+    color: #2887F2; }
 
 .pages-_hide--2lx70 {
   display: none !important; }
@@ -1041,6 +973,10 @@
 .pages-_hikeBody--un9yd {
   background: white;
   height: 100%; }
+
+.pages-_toursDetailPreview--1wyb7 {
+  height: calc(100vh - 145px);
+  overflow-y: auto; }
 
 .pages-_hikeContainer--_4980 {
   background: white;
@@ -1191,11 +1127,44 @@
 .pages-_pageContainer--3brHz {
   padding: 20px; }
 
-.pages-_generate--27j98 {
-  display: flex; }
+.pages-_generateContainer--3r9_H {
+  padding: 0; }
+
+.pages-_pageContent--3HEcY {
+  height: calc(100vh - 51px);
+  background: white;
+  border-right: 1px solid #d4d4d4; }
+
+.pages-_forms--3n0I_ {
+  overflow-y: auto; }
+
+.pages-_formContainer--15mmt {
+  margin-bottom: 5px; }
+  .pages-_formContainer--15mmt label {
+    font-size: 14px; }
+
+.pages-_zipEmpty--D4gGS {
+  height: calc(100vh - 71px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .pages-_zipEmpty--D4gGS h3 {
+    font-size: 28px; }
+
+.pages-_zipValid--QxijF {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0; }
+
+.pages-_ckEditorContainer--1A38U {
+  flex: 0.6 !important;
+  padding: 10px 20px; }
+  .pages-_ckEditorContainer--1A38U button {
+    margin: 10px 0; }
 
 .pages-_generateForm--1n1qG {
-  flex: 0.7 !important;
+  flex: 1 !important;
   padding: 0 20px; }
   .pages-_generateForm--1n1qG form div {
     display: flex;
@@ -1207,16 +1176,43 @@
     .pages-_generateForm--1n1qG form div textarea {
       flex: 1; }
 
-.pages-_preview--1zsEw {
-  flex: 1 !important; }
-
 .pages-_previews--1o1qI {
   list-style: none;
-  padding: 5px 0; }
+  padding: 0px 0;
+  margin: 0; }
   .pages-_previews--1o1qI li {
     cursor: pointer;
     float: left;
     margin-left: 10px; }
     .pages-_previews--1o1qI li:hover {
       text-decoration: underline; }
+
+.pages-_header--1BKOx {
+  background-color: #121920;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px; }
+  .pages-_header--1BKOx div {
+    font-size: 18px;
+    color: white;
+    top: 10px;
+    position: relative;
+    left: 10px; }
+
+.pages-_logo--d8BYZ {
+  width: 30px;
+  height: 30px; }
+
+.pages-_cardPreview--iZurp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 104px); }
+
+.pages-_previewContainer--j2Rpp {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
 

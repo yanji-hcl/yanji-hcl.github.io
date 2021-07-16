@@ -383,10 +383,12 @@
 .pages-_pageContent--3HEcY {
   height: calc(100vh - 51px);
   background: white;
-  border-right: 1px solid #d4d4d4; }
+  border-right: 1px solid #d4d4d4;
+  overflow: hidden; }
 
 .pages-_forms--3n0I_ {
-  overflow-y: auto; }
+  overflow-y: auto;
+  height: 100%; }
 
 .pages-_formContainer--15mmt {
   margin-bottom: 5px; }

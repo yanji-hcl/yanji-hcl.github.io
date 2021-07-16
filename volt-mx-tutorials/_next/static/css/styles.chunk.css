@@ -117,6 +117,216 @@
   position: absolute;
   top: -22px; }
 
+.src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg {
+  width: 100%;
+  margin: 10px 0; }
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg a,
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg span {
+    font-family: "Poppins Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #3F4E66; }
+  .src-components-HikeBreadCrumb-_breadcrumbWrapper--3IBeg a {
+    color: #2887F2; }
+
+.src-components-KonyButton-_konyButton--1zJKe {
+  border-radius: 40px;
+  padding: 18px 30px;
+  line-height: 0;
+  cursor: pointer;
+  z-index: 2; }
+
+.src-components-KonyButton-_normal--3Ekqs {
+  font-family: "RobotoSlab Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 0 !important; }
+  .src-components-KonyButton-_normal--3Ekqs:active, .src-components-KonyButton-_normal--3Ekqs.src-components-KonyButton-_active--2LeOg {
+    opacity: .6; }
+
+.src-components-KonyButton-_filter--Orjkm {
+  font-family: "Poppins Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+  border: solid 1px #8A96AF;
+  color: #8A96AF;
+  padding: 0 10px;
+  border-radius: 15px; }
+  .src-components-KonyButton-_filter--Orjkm:focus {
+    border: solid 1px #8A96AF;
+    color: #8A96AF; }
+  .src-components-KonyButton-_filter--Orjkm:hover {
+    background-color: #73DB9B;
+    opacity: .6;
+    color: white;
+    border-color: #73DB9B; }
+    @media only screen and (max-width: 991px) {
+      .src-components-KonyButton-_filter--Orjkm:hover {
+        border: solid 1px #8A96AF;
+        color: #8A96AF;
+        opacity: 1;
+        background-color: white; } }
+  .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_active--2LeOg {
+    background-color: #73DB9B;
+    opacity: 1;
+    color: white;
+    border-color: #73DB9B; }
+  .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_selected--2bLYr {
+    border: solid 1px #EBEBEB;
+    color: #64C489;
+    font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 1; }
+    .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_selected--2bLYr i {
+      color: black; }
+    .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_selected--2bLYr:hover {
+      background-color: white;
+      color: #64C489; }
+    .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_selected--2bLYr:active, .src-components-KonyButton-_filter--Orjkm.src-components-KonyButton-_selected--2bLYr.src-components-KonyButton-_active--2LeOg {
+      background-color: white;
+      color: #64C489; }
+  @media only screen and (max-width: 767px) {
+    .src-components-KonyButton-_filter--Orjkm {
+      border-radius: 6px;
+      color: #788EA9;
+      font-size: 13px;
+      border: 1px solid rgba(138, 150, 175, 0.5); } }
+
+.src-components-KonyButton-_downloadIcon--3AqOe {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px; }
+
+.src-components-KonyButton-_codeIcon--2n6ua {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px; }
+
+.src-components-KonyButton-_action--I6ToG, .src-components-KonyButton-_download--2oNV4 {
+  font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  border: solid 1px #297BFF;
+  background-color: white;
+  color: #297BFF;
+  line-height: 0 !important; }
+  .src-components-KonyButton-_action--I6ToG:hover, .src-components-KonyButton-_download--2oNV4:hover {
+    opacity: .6;
+    background-color: white;
+    color: #297BFF; }
+  .src-components-KonyButton-_action--I6ToG[disabled], .src-components-KonyButton-_download--2oNV4[disabled] {
+    opacity: .6;
+    background-color: #297BFF;
+    color: white; }
+  @media only screen and (max-width: 767px) {
+    .src-components-KonyButton-_action--I6ToG, .src-components-KonyButton-_download--2oNV4 {
+      border-radius: 4px;
+      border-color: "unquote('#8a96af80')";
+      color: #00B9FF; } }
+
+.src-components-KonyButton-_download--2oNV4 {
+  padding: 9px 20px !important; }
+
+.src-components-KonyButton-_blue--nUQSe {
+  font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  border: solid 1px #297BFF;
+  background-color: #297BFF;
+  padding: 18px 30px;
+  color: white;
+  line-height: 0 !important;
+  height: 40px; }
+  .src-components-KonyButton-_blue--nUQSe:hover {
+    opacity: .6;
+    background-color: #297BFF;
+    color: white; }
+  @media only screen and (max-width: 767px) {
+    .src-components-KonyButton-_blue--nUQSe {
+      border-radius: 4px;
+      border: solid 1px #00B9FF;
+      background-color: #00B9FF; }
+      .src-components-KonyButton-_blue--nUQSe:hover {
+        background-color: #00B9FF; } }
+
+.src-components-KonyButton-_red--1xDUH {
+  background-color: #EE6B6B;
+  border: solid 1px #EE6B6B;
+  color: white;
+  line-height: 0 !important;
+  height: 40px; }
+  .src-components-KonyButton-_red--1xDUH:hover, .src-components-KonyButton-_red--1xDUH:focus {
+    background-color: white;
+    border: solid 1px #EE6B6B;
+    color: #EE6B6B; }
+  .src-components-KonyButton-_red--1xDUH:active, .src-components-KonyButton-_red--1xDUH.src-components-KonyButton-_active--2LeOg {
+    background-color: #EE6B6B;
+    border: solid 1px #EE6B6B;
+    color: white; }
+
+.src-components-KonyButton-_lightBlue--1g8e2 {
+  background-color: #6e87f5;
+  border: solid 1px #6e87f5;
+  color: white;
+  line-height: 0 !important; }
+  .src-components-KonyButton-_lightBlue--1g8e2:hover, .src-components-KonyButton-_lightBlue--1g8e2:focus {
+    background-color: white;
+    border: solid 1px #6e87f5;
+    color: #6e87f5; }
+  .src-components-KonyButton-_lightBlue--1g8e2.src-components-KonyButton-_active--2LeOg, .src-components-KonyButton-_lightBlue--1g8e2:active {
+    background-color: #6e87f5;
+    border: solid 1px #6e87f5;
+    color: white; }
+
+.src-components-KonyButton-_skyBlue--UHdfC {
+  background-color: #4CB9F9;
+  border: solid 1px #4CB9F9;
+  color: white;
+  line-height: 0 !important; }
+  .src-components-KonyButton-_skyBlue--UHdfC:hover, .src-components-KonyButton-_skyBlue--UHdfC:focus {
+    background-color: white;
+    border: solid 1px #4CB9F9;
+    color: #4CB9F9; }
+  .src-components-KonyButton-_skyBlue--UHdfC.src-components-KonyButton-_active--2LeOg, .src-components-KonyButton-_skyBlue--UHdfC:active {
+    background-color: #4CB9F9;
+    border: solid 1px #4CB9F9;
+    color: white; }
+
+.src-components-KonyButton-_lightGreen--2T8V3 {
+  background-color: #21cba5;
+  border: solid 1px #21cba5;
+  color: white;
+  line-height: 0 !important; }
+  .src-components-KonyButton-_lightGreen--2T8V3:hover, .src-components-KonyButton-_lightGreen--2T8V3:focus {
+    background-color: white;
+    border: solid 1px #21cba5;
+    color: #21cba5; }
+  .src-components-KonyButton-_lightGreen--2T8V3.src-components-KonyButton-_active--2LeOg, .src-components-KonyButton-_lightGreen--2T8V3:active {
+    background-color: #21cba5;
+    border: solid 1px #21cba5;
+    color: white; }
+
+.src-components-KonyButton-_appPreview--2Hptp {
+  font-family: "Poppins Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+  border: solid 1px #00B9FF;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 10px;
+  color: rgba(0, 185, 255, 0.73);
+  line-height: 20px !important; }
+  .src-components-KonyButton-_appPreview--2Hptp:hover {
+    opacity: .6;
+    background-color: transparent;
+    color: rgba(0, 185, 255, 0.73); }
+  .src-components-KonyButton-_appPreview--2Hptp.src-components-KonyButton-_featured--16x0J {
+    font-size: 14px;
+    padding: 15px;
+    color: #00B9FF;
+    line-height: 0 !important; }
+
+.src-components-KonyButton-_filterCloseIcon--shvlF {
+  width: 7px;
+  margin-left: 10px; }
+
 .src-components-TourCard-_tour--yN8gg {
   height: 120px;
   padding: 10px;
